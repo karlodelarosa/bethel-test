@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Helvetica_regular;
+    src: url('helveticaneue/HelveticaNeueLt.ttf');
+}
+
+@font-face {
+    font-family: Helvetica_light;
+    src: url('helveticaneue/HelveticaNeue.ttf');
+}
+
+@font-face {
+    font-family: Helvetica_medium;
+    src: url('helveticaneue/HelveticaNeueMed.ttf');
+}
+
+@font-face {
+    font-family: Helvetica_bold;
+    src: url('helveticaneue/HelveticaNeueHv.ttf');
+}
+
+.font-helv-regular { font-family: Helvetica_regular; }
+.font-helv-light { font-family: Helvetica_light; }
+.font-helv-medium { font-family: Helvetica_medium; }
+.font-helv-bold { font-family: Helvetica_bold; }
+
+
+html, body {
+    font-family: Helvetica_regular!important;
+}
+
+/* Custom Backgrounds */
+.bg-primary { background-color: #009FC2; }
+.bg-secondary { background-color: #DFEFF6; }
+.bg-backdrop { background-color: #e5e5e5; }
+
+/* Custom Text color */
+.text-primary { color: #009FC2; }
+.text-secondary { color: #DFEFF6; }
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(229,229,229,1) 60%, rgba(229,229,229,0.7) 80%,rgba(229,229,229,0) 100%);
+}
+
+.title {
+    position: absolute;
+    width: 535px;
+    height: 215px;
+    left: 121px;
+    top: 152px;
+    font-family: Helvetica_bold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 73px;
+    color: #009FC2;
+}
+
